@@ -6,9 +6,9 @@ type JobItemProps = {
 
 const JobItem = ({ position, company, href }: JobItemProps) => {
   return (
-    <p className="text-lighter mt-2">
+    <p className="text-sm sm:text-base mt-2">
       {position} at{" "}
-      <a className="text-light" href={href} target="_blank" rel="noreferrer">
+      <a className="low-opacity" href={href} target="_blank" rel="noreferrer">
         {company}
       </a>
     </p>

@@ -7,7 +7,7 @@ import Projects from "./modules/projects/components/Projects";
 
 function App() {
   return (
-    <div className="w-screen lg:max-w-2xl min-h-screen mx-auto py-10 px-5">
+    <div className="w-full lg:max-w-2xl min-h-screen mx-auto py-10 px-5">
       <Header />
       <About />
       <Experience />

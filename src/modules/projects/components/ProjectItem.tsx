@@ -13,14 +13,14 @@ const ProjectItem = ({
 }: ProjectItemProps) => {
   return (
     <div className="mt-3">
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 items-center text-sm sm:text-base">
         <a href={href} target="_blank">
           {projectTitle}
         </a>
         <PiLink className="w-3 h-3" />
       </div>
 
-      <p className="text-lighter text-md mt-1">{projectDescription}</p>
+      <p className="text-lighter text-sm sm:text-base mt-1">{projectDescription}</p>
     </div>
   );
 };
