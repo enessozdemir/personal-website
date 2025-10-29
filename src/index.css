@@ -25,7 +25,7 @@ body {
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
+  scrollbar-width: none;
 }
 
 .low-opacity {
