@@ -12,9 +12,9 @@ const ThemeToggle = () => {
       style={{ animationDuration: "1.5s" }}
     >
       {theme === "dark" ? (
-        <LuSun className="w-4 h-4 sm:w-6 sm:h-6" />
+        <LuSun data-testid="sun-icon" className="w-4 h-4 sm:w-6 sm:h-6" />
       ) : (
-        <LuMoon className="w-4 h-4 sm:w-6 sm:h-6" />
+        <LuMoon data-testid="moon-icon" className="w-4 h-4 sm:w-6 sm:h-6" />
       )}
     </button>
   );

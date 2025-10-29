@@ -7,7 +7,6 @@ export default function useTheme() {
     const handleToggleTheme = () => {
         toggleTheme();
 
-        
     };
 
     useEffect(() => {
