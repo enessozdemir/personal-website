@@ -18,7 +18,7 @@ const Contact = () => {
         <a
           href="/cv/Enes_Ozdemir_Resume.pdf"
           download={"Enes Özdemir Resume"}
-          className="border rounded-full py-2 px-4"
+          className="border rounded-full py-2 px-4 hover:opacity-80 transition-all"
         >
           Get My Resume
         </a>

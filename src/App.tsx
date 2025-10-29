@@ -1,6 +1,7 @@
 import About from "./modules/about/components/About";
 import Contact from "./modules/contact/components/Contact";
 import Experience from "./modules/experience/components/Experience";
+import Footer from "./modules/footer/components/Footer";
 import Header from "./modules/header/components/Header";
 import Projects from "./modules/projects/components/Projects";
 
@@ -12,6 +13,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
